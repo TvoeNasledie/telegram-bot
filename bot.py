@@ -1,3 +1,7 @@
+python
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import logging
 import re
@@ -362,4 +366,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
