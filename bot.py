@@ -105,7 +105,7 @@ class Database:
 db = Database()
 
 # Получаем переменные окружения
-TOKEN = os.getenv('8252703334:AAHXBwrVZPtP6pdsp1Lo5_Sd6PPrd-jLcAk')
+TOKEN = os.getenv('8252703334:AAHXBwrVZPtP6pds')
 CHANNEL_ID_1 = os.getenv('CHANNEL_ID_1', '@vmodel_msk')
 CHANNEL_ID_2 = os.getenv('CHANNEL_ID_2', '@x5courer')
 ADMIN_USER_ID = int(os.getenv('ADMIN_USER_ID', '400730644'))
@@ -367,4 +367,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
